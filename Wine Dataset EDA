@@ -1,0 +1,26 @@
+DATESET | Wine Dataset consisting of various Wine Variety
+AIM | Data Cleaning, Data Correlation Understanding , Data Visualisation
+LIBRARY USED | Pandas, Seaborn , Matplotlib
+Input variables (based on physicochemical tests):
+   1 - fixed acidity
+   2 - volatile acidity
+   3 - citric acid
+   4 - residual sugar
+   5 - chlorides
+   6 - free sulfur dioxide
+   7 - total sulfur dioxide
+   8 - density
+   9 - pH
+   10 - sulphates
+   11 - alcohol
+Output variable (based on sensory data): 
+   12 - quality (score between 0 and 10)
+
+EDA Flow:
+1. Load the Wine Dataset
+2. Understanding the Descriptive Statistics of dataset
+3. Checking for Missing Values
+4. Checking for Duplicate Values
+5. Removing Missing and Duplicate Values
+6. Understanding Correlation between Variables
+7. Plotting various graphs for understanding the various relations visually 
